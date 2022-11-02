@@ -1,0 +1,391 @@
+* {
+  font-family: "Cairo", sans-serif;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.App {
+  text-align: center;
+}
+.active {
+  font-weight: bold !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ahmed-amir {
+  text-decoration: none;
+}
+/*<-------------------------------------------------------------------------->*/
+.MainNav {
+  padding: 0;
+  background-color: #fbbf58;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.red-line {
+  background-color: #b52a04;
+  padding: 1px 0;
+  width: 5%;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.flexDiv span {
+  margin: 15px 0;
+}
+
+.flexed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-span {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.caption-span {
+  display: block;
+  color: #fff;
+  font-size: 30px;
+}
+.slide-container {
+  position: relative;
+}
+.bg-fade-main-carousel,
+.bg-img,
+.content-container {
+  position: absolute;
+}
+
+/*<--------------------------Slider---------------------------------------->*/
+/*<--------------------------Nav---------------------------------------->*/
+.nav-link:hover {
+  background-color: #fbbf58;
+  color: #f8f9fa !important;
+}
+/*<--------------------------Nav---------------------------------------->*/
+.fullHeight {
+  height: calc(100vh - 56px);
+}
+.fullHeight-nonav {
+  height: 100vh;
+}
+
+.bg-fade,
+.bg-fade-main-carousel {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.book-a-table {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide1 {
+  background-image: url("./assets/img/Pizza1.webp");
+}
+.slide2 {
+  background-image: url("./assets/img/Pizza2.webp");
+}
+.slide3 {
+  background-image: url("./assets/img/Pizza3.webp");
+}
+.slide4 {
+  background-image: url("./assets/img/MakingPizza.webp");
+}
+/*<--------------------------Slider---------------------------------------->*/
+
+/*<--------------------------About Us---------------------------------------->*/
+.about-us {
+  background-image: url("./assets/img/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.about-us-header {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.about-us-content {
+  flex-direction: row;
+  font-size: 21px;
+}
+
+/*<--------------------------About Us---------------------------------------->*/
+
+/*<--------------------------baking---------------------------------------->*/
+.baking-description-holder {
+  display: flex;
+  align-items: center;
+  background-color: #fbbf58;
+  /* padding: 0 !important; */
+}
+.baking-description-header {
+  display: block;
+  font-weight: bold;
+  font-size: 35px;
+}
+.baking {
+  padding: 0 !important;
+}
+/*<--------------------------baking---------------------------------------->*/
+
+/*<--------------------------alterProducts---------------------------------------->*/
+.alterproducts-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.product-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*<--------------------------alterProducts---------------------------------------->*/
+
+/*<--------------------------loyal-customers-container---------------------------------------->*/
+.loyal-customers-container {
+  background-image: url("./assets/img/pizzaWallpaper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.loyal-customers-header-container {
+  display: flex;
+  justify-content: center;
+}
+.customer-name,
+.customer-caption {
+  color: #fff;
+}
+.customer-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.loyal-customer-header {
+  display: block;
+  font-size: 35px;
+}
+.loyal-customers-container .carousel-indicators {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.person-card {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.personal-image {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+/*<--------------------------loyal-customers-container---------------------------------------->*/
+/*<--------------------------our Team---------------------------------------->*/
+.chef-description {
+  background-color: #f8f9fa;
+}
+.chef {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.chef-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.chef-role {
+  font-size: 18px;
+  color: #b52a04;
+  font-weight: bold;
+}
+/*<--------------------------our Team---------------------------------------->*/
+
+/*<--------------------------book a table---------------------------------------->*/
+.book-a-table {
+  background-image: url("./assets/img/bookatable.jpg");
+}
+.button-holder {
+  background-color: #fbbf58;
+}
+.booking-description-header {
+  font-size: 35px;
+  font-weight: bold;
+}
+.booking-description-caption {
+  font-size: 20px;
+}
+/*<--------------------------book a table---------------------------------------->*/
+/*<--------------------------Footer---------------------------------------->*/
+.footer-top {
+  background-color: #333333;
+}
+.footer-bg {
+  background-image: url("./assets/img/pattern.png");
+  background-attachment: fixed;
+}
+.footer-bottom {
+  background-color: #191919;
+
+  color: #f8f9fa;
+}
+.footer-bottom a {
+  color: #f8f9fa;
+  text-decoration: underline;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.footer-bottom a:hover {
+  color: #fbbf58;
+  text-decoration: none;
+}
+.mail a,
+.title,
+.map-title {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.mail a {
+  text-decoration: underline;
+  text-transform: none;
+}
+.mail a:hover {
+  color: #fbbf58;
+  text-decoration: none;
+}
+.map-title,
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+/*<--------------------------Footer---------------------------------------->*/
+/*<--------------------------bookAtable---------------------------------------->*/
+.bookAtable {
+  background-image: url("./assets/img/bookAtableBG2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.form-header {
+  font-weight: bold;
+  font-size: 25px;
+}
+.success-content p {
+  font-size: 25px;
+  text-align: center;
+}
+.success-btn {
+  background-color: #39b54a !important;
+  border: none !important;
+}
+.success-btn:hover {
+  background-color: #297433 !important;
+}
+.none-choice {
+  color: #282c34 !important ;
+}
+/*<--------------------------bookAtable---------------------------------------->*/
+/*<--------------------------Staff---------------------------------------->*/
+.staff-container {
+  background-image: url("./assets/img/staff.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login-input,
+.password-input {
+  text-transform: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*<--------------------------Staff---------------------------------------->*/
+/*<--------------------------Dashboard---------------------------------------->*/
+
+.nav-list li a {
+  color: #191919;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-list li a:hover {
+  background-color: #fbbf58;
+  color: #f8f9fa;
+}
+.navList-container,
+.reservations-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 85vh;
+}
+/*<--------------------------Dashboard---------------------------------------->*/
